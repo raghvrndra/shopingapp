@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap");
+* {
+  font-family: "Alkatra", cursive;
+}
+.homecategories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px;
+  /* color: white; */
+}
+ .homecategories .container .s2{
+  display: flex;
+  flex-direction: column;
+ }
+.homecategories .container {
+  min-width: 300px;
+
+  width: 24%;
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 5px;
+}
+.homecategories .container img {
+  width: 70%;
+  object-fit: cover;
+}
+.homecategories .container .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homecategories .container .content h1 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+}
+.homecategories .container .content p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0px;
+}
+.homecategories .container:nth-child(1) {
+  background-color: #fbdc6e;
+  color: rgb(14, 5, 5);
+}
+.homecategories .container:nth-child(2) {
+  background-color: #ff9393;
+  color: rgb(0, 0, 0);
+}
+.homecategories .container:nth-child(3) {
+  background-color: #ffabe4;
+  color: rgb(8, 6, 6);
+}
+.homecategories .container:nth-child(4) {
+  background-color: #a8d0e6;
+  color: rgb(10, 10, 10);
+}
